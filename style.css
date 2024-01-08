@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1600px;
+    height: 600px;
+    
+}  
+.banner{
+width: 1320px;
+height: 600px;
+flex-shrink: 0;
+border-radius: 16px;
+background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner.png);
+background-repeat: no-repeat;
+background-size: 100%;
+margin-left: 140px;
+margin-top: 100px;
+
+}
+    
+.banner img{
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+.banner-text{
+    padding-top: 100px;
+    margin-left: 50px;
+}
+.banner-text h3{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Merriweather', serif;
+
+
+}
+.banner-text h1{
+    margin-left: 5px;
+    font-size: 92px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+
+
+}
+.new-year-offer{
+    text-align: center;
+    padding-top: 20px;
+
+   
+}
+.new-year-offer h1,h2{
+    font-size: 80px;
+    font-weight: 700 bolder;
+    font-family: 'Merriweather', serif;
+    color: rgb(234, 53, 131);
+}
+.new-year-offer h3{
+    font-size: 24px;
+    font-weight: 500 bold;
+    color: #f00;
+    line-height: normal;
+    font-family: 'Merriweather', serif;
+}
+
+.night-party{
+width: 1320px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(.//resources/Vectorrr.png);
+background-repeat: no-repeat;
+background-size: 100%;
+margin-left: 140px;
+margin-top: 80px;
+display: flex;
+     
+}
+
+.party-title{
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.night-party-text{
+    text-align: left;
+    padding-left: 20px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.btn{
+    color:solid black;
+    padding: 15px;
+    background-color: coral;
+    font-size: large;
+}
+.gp{
+       padding-right: 100px;
+       padding-top: 50px;
+       padding-bottom: 50px; 
+}
+.timebox{
+
+}
+.party-title{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+
+}
+.timebox{
+    margin:100px ;
+    margin-left: 140px;
+    border-radius: 16px;
+    padding: 120px;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.timebox-title{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+button{
+        
+}
