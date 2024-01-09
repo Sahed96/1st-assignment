@@ -193,9 +193,47 @@ letter-spacing: 7.04px;
     width: 150px;
     height: 150px;
     padding: 80px;
-    margin: 0 auto;
+    margin: 0 auto;   
+}
+.news-content{
+   text-align: center;
+}
+.news-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+.news-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.box{
+    text-align: center; 
+    padding: 40px;
    
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size:25px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+input[type="email"]{
+    background: #FFF;
+    width: 500px;
+    height: 70px;
+    padding: 0 25px;
+    border-radius: 50px 0 0 50px;
     
+    
+}
+input[type="submit"]{
+    background: #f00;
+    width: 200px;
+    height: 70px;
+    border-radius: 0 50px 50px 0;
 }
     
     
