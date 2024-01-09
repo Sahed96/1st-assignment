@@ -244,24 +244,72 @@ input[type="submit"]{
     
     
 }
-.row-1st{
+.footer-content{
     display: flex;
-    padding: 100px;
-    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
 }
-.row-2nd{
+.footer-left p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 36px;
+
+}
+.footer-first-list{
+    display: block;
+    align-items: center;
+    margin-right: 200px;
+
+}
+.footer-first-list li{
+    list-style: none;
+    margin-top: 5px;
+ 
+
+}
+.footer-first-list li img{
+    margin-top: 5px;
+    width: 24px;
+    height: 24px;
+   
+}
+.footer-first-list li a{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-left: 15px;
+    text-decoration: none;
+}
+.icon-list{
+    padding: 45px 0px;
+}
+.icon-list ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-list ul li{
+    margin: 0px 10px;
+}
+.icon-list ul li img{
     width: 64px;
     height: 64px;
-    padding: 50px;
-    display: flex;
-    color: #FFF;
-    margin: 0 auto;
 }
-.row-3rd{
-    display: flex;
-    padding: 100px;
-    color: #FFF;
+hr{
+    background: #FF0000;
 }
-    
-    
+.allrights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.copy-right small{
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+
 
