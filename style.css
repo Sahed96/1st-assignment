@@ -90,8 +90,8 @@ display: flex;
 }
 
 .party-title{
-    padding-top: 70px;
-    padding-right: 50px;
+    align-items: center;
+    padding: 30px;
 }
 .night-party-text{
     text-align: left;
@@ -103,20 +103,21 @@ display: flex;
     font-weight: 400;
     
 }
-.btn{
-    color:solid black;
-    padding: 15px;
-    background-color: coral;
-    font-size: large;
+.night-party-text button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius:  50px 50px;
+    background-color: #f00;
+    color:black;
+
    
 }
 .gp{
        padding-right: 100px;
        padding-top: 50px;
        padding-bottom: 50px; 
-}
-.timebox{
-
 }
 .party-title{
     color: #FFF;
@@ -143,15 +144,18 @@ letter-spacing: 7.04px;
     font-weight: 600;
     
 }
-.btn2{
-    color:solid black;
-    padding: 5px;
-    background-color: coral;
-    margin: 0 auto;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
+.timebox-title button{
+    width: 167px;
+    height: 56px;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius:  50px 50px;
+    background-color: #f00;
+    color: #FFF;
 }
+
+
+
 .grid{
     width: 1600px;
     height: 150px;
@@ -239,61 +243,65 @@ input[type="submit"]{
 }
 .footer{
     width: 1600px;
-    height: 609px;
-    background: #070211;
-    
-    
+    height: 350px;
+    background-color: #070211;
+    padding:100px 0px;
+    margin-top: 75px;
 }
 .footer-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
-.footer-left p{
+.left-footer p{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 400px;
     line-height: 36px;
+    padding-left: 50px;
+    padding-bottom: 30px;
 
 }
-.footer-first-list{
+.first-footer{
     display: block;
     align-items: center;
-    margin-right: 200px;
+    margin-right: 50px;
+    margin-bottom: 30px;
 
 }
-.footer-first-list li{
+.first-footer li{
     list-style: none;
     margin-top: 5px;
+
  
 
 }
-.footer-first-list li img{
+.first-footer li img{
     margin-top: 5px;
     width: 24px;
     height: 24px;
    
 }
-.footer-first-list li a{
+.first-footer li a{
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
     padding-left: 15px;
     text-decoration: none;
 }
-.icon-list{
+.icons{
     padding: 45px 0px;
 }
-.icon-list ul{
+.icons ul{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon-list ul li{
+.icons ul li{
     margin: 0px 10px;
 }
-.icon-list ul li img{
+.icon ul li img{
     width: 64px;
     height: 64px;
 }
@@ -304,12 +312,14 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 25px;
+    padding-top: 50px;
+    padding-left: 100px;
+    
 }
-.copy-right small{
+.allrights small{
     color: #FFFFFF;
     font-size: 20px;
     text-align: center;
+    padding-right: 100px;
 }
-
 
