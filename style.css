@@ -54,8 +54,10 @@ margin-top: 100px;
 
 }
 .new-year-offer{
+    margin: 0 auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 35px;
+   
 
    
 }
@@ -234,6 +236,31 @@ input[type="submit"]{
     width: 200px;
     height: 70px;
     border-radius: 0 50px 50px 0;
+}
+.footer{
+    width: 1600px;
+    height: 609px;
+    background: #070211;
+    
+    
+}
+.row-1st{
+    display: flex;
+    padding: 100px;
+    color: #FFF;
+}
+.row-2nd{
+    width: 64px;
+    height: 64px;
+    padding: 50px;
+    display: flex;
+    color: #FFF;
+    margin: 0 auto;
+}
+.row-3rd{
+    display: flex;
+    padding: 100px;
+    color: #FFF;
 }
     
     
